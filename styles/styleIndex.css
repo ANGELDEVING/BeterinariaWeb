@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* start */
+header{
+    background-color: #000;
+    margin: 10px 10px 10px 10px;
+}
+header nav ul{
+    display: flex;
+    
+}
+header nav ul li{
+    max-width: 100px;    
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+header nav ul li a:hover{
+    background-color: #367396;
+    width: 500px;
+    height: 500px;
+    color: #ffffff;
+    transition: all 1s;
+    border-radius: 50%;
+    padding: 1rem;
+}
+header nav ul h1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+}
+/* end */
