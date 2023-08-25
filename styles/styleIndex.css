@@ -3,13 +3,22 @@
     padding: 0;
 
 }
+body{
+    background-image: url(../images//wp8820674-veterinarian-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-g:;
+}
 /* start */
 header{
     background-color: #000;
     margin: 10px 10px 10px 10px;
+    opacity: 0.6;
 }
 header nav ul{
     display: flex;
+    justify-content: end;
     
 }
 header nav ul li{
@@ -21,6 +30,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: #ffff;
+
 }
 header nav ul li a:hover{
     background-color: #367396;
@@ -28,13 +38,14 @@ header nav ul li a:hover{
     height: 500px;
     color: #ffffff;
     transition: all 1s;
-    border-radius: 50%;
+    border-radius: 10%;
     padding: 1rem;
 }
-header nav ul h1{
+header nav ul  h1{
     display: flex;
     align-items: center;
     position: relative;
     color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
 }
 /* end */
